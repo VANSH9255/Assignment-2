@@ -1,0 +1,178 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "31820566-9cfd-458f-9e90-aa46877c0f06",
+   "metadata": {},
+   "source": [
+    "1:Discuss string slicing and provide examples.\n",
+    ":String slicing is a technique in programming where you can extract a subset of character from a string. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "4a4d34c9-88ea-4f74-8ca2-43197e669f6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "H\n",
+      "d\n",
+      "ello\n"
+     ]
+    }
+   ],
+   "source": [
+    "my_string=\"Hello world\"\n",
+    "print(my_string[0])\n",
+    "print(my_string[-1])\n",
+    "print(my_string[1:5])"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2d84a171-9f2c-47b2-b234-aefc4696b87e",
+   "metadata": {},
+   "source": [
+    "2:Explain the key features of lists in python?<br>\n",
+    ":In python,a list is a data structure that has the following key words:\n",
+    "Ordered,mutable,indexed,dynamic size,heterogenous,iterable etc\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "53ccf8c6-84ed-484e-9386-4729906d2f49",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['Apple', 'orange', 'banana']"
+      ]
+     },
+     "execution_count": 27,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#list.append,\n",
+    "list=[\"Apple\",\"orange\"]\n",
+    "list.append(\"banana\")\n",
+    "list"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "65104d89-67a9-4c49-b1d9-53a907900318",
+   "metadata": {},
+   "source": [
+    "3:Describe how to access,modify,and delete elements in a list with examples: "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "8890de33-e542-4a9b-a1ed-fc2468e8e323",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['vansh', 'komal', 'vishal']"
+      ]
+     },
+     "execution_count": 42,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#list.append,\n",
+    "list=[\"vansh\",\"komal\"]\n",
+    "list.append(\"vishal\")\n",
+    "list"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "f060d092-84c4-4c30-8fda-c38f68bd952a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'komal'"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#list.delete\n",
+    "list=[\"vansh\",\"vishal\",\"komal\"]\n",
+    "list.pop()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "768464a3-9606-4815-bebe-edb24b03a7d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['vansh', 'chahat', 'komal']"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "#list.insert\n",
+    "list=[\"vansh\",\"chahat\"]\n",
+    "list.insert(2,\"komal\")\n",
+    "list"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "22d8de70-0ea3-4be4-a88b-00fdba3ef984",
+   "metadata": {},
+   "source": [
+    "#### "
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
